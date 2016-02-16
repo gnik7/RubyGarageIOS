@@ -7,27 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FDEC6161C6F1D6A00CAB100 /* NGDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEC6151C6F1D6A00CAB100 /* NGDetailController.m */; };
+		8FDEC6191C6F233900CAB100 /* NGDetailProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEC6181C6F233900CAB100 /* NGDetailProduct.m */; };
+		8FDEC61B1C6F585400CAB100 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEC61A1C6F585400CAB100 /* placeholder.png */; };
+		8FDEC61E1C6F60B500CAB100 /* NGPagination.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEC61D1C6F60B500CAB100 /* NGPagination.m */; };
+		8FDEC6221C6F822500CAB100 /* NGProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEC6211C6F822500CAB100 /* NGProgress.m */; };
+		A8225C3587CAC5FB75049D7B /* libPods-RubyGarageIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B198A8E0354CABC89274EACB /* libPods-RubyGarageIOS.a */; };
+		DB1ABBE01C6DADEF00939B12 /* products_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1ABBDF1C6DADEF00939B12 /* products_background.png */; };
+		DB63E5BD1C705E15005A2FAE /* NGFavoriteController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB63E5BC1C705E15005A2FAE /* NGFavoriteController.m */; };
+		DB6556EB1C6A7FA400C0C086 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6556EA1C6A7FA400C0C086 /* MainViewController.m */; };
+		DB6556F21C6A83EB00C0C086 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6556F11C6A83EB00C0C086 /* SearchViewController.m */; };
+		DB6556F51C6A878700C0C086 /* NGServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6556F41C6A878700C0C086 /* NGServerManager.m */; };
+		DB6556F91C6A8AA100C0C086 /* NGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6556F81C6A8AA100C0C086 /* NGCategory.m */; };
+		DB79788A1C6B27BC006AD745 /* NGProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7978891C6B27BC006AD745 /* NGProductCell.m */; };
+		DB81E1691C726A16006DFFF2 /* ImageSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81E1681C726A16006DFFF2 /* ImageSaver.m */; };
+		DB8689B71C6FD5AC00B951DE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8689B61C6FD5AC00B951DE /* CoreData.framework */; };
+		DB8689C51C6FDB2C00B951DE /* ProductSelected+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8689C21C6FDB2C00B951DE /* ProductSelected+CoreDataProperties.m */; };
+		DB8689C61C6FDB2C00B951DE /* ProductSelected.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8689C41C6FDB2C00B951DE /* ProductSelected.m */; };
+		DB8689C81C6FEF2300B951DE /* libMagicalRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8689C71C6FEF2300B951DE /* libMagicalRecord.a */; };
 		DB8F588D1C691A9F00CDFB2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F588C1C691A9F00CDFB2D /* main.m */; };
 		DB8F58901C691A9F00CDFB2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F588F1C691A9F00CDFB2D /* AppDelegate.m */; };
-		DB8F58931C691A9F00CDFB2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F58921C691A9F00CDFB2D /* ViewController.m */; };
 		DB8F58961C691A9F00CDFB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8F58941C691A9F00CDFB2D /* Main.storyboard */; };
 		DB8F58991C691A9F00CDFB2D /* RubyGarageIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB8F58971C691A9F00CDFB2D /* RubyGarageIOS.xcdatamodeld */; };
 		DB8F589B1C691A9F00CDFB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8F589A1C691A9F00CDFB2D /* Assets.xcassets */; };
 		DB8F589E1C691A9F00CDFB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8F589C1C691A9F00CDFB2D /* LaunchScreen.storyboard */; };
+		DBE075F91C6B035B00781C8F /* NGProductsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE075F81C6B035B00781C8F /* NGProductsCollection.m */; };
+		DBE075FC1C6B07FA00781C8F /* NGProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE075FB1C6B07FA00781C8F /* NGProducts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5199DAA07AE45CB43C18AE48 /* Pods-RubyGarageIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyGarageIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RubyGarageIOS/Pods-RubyGarageIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8FDEC6141C6F1D6A00CAB100 /* NGDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGDetailController.h; sourceTree = "<group>"; };
+		8FDEC6151C6F1D6A00CAB100 /* NGDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGDetailController.m; sourceTree = "<group>"; };
+		8FDEC6171C6F233900CAB100 /* NGDetailProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGDetailProduct.h; sourceTree = "<group>"; };
+		8FDEC6181C6F233900CAB100 /* NGDetailProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGDetailProduct.m; sourceTree = "<group>"; };
+		8FDEC61A1C6F585400CAB100 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		8FDEC61C1C6F60B500CAB100 /* NGPagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPagination.h; sourceTree = "<group>"; };
+		8FDEC61D1C6F60B500CAB100 /* NGPagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPagination.m; sourceTree = "<group>"; };
+		8FDEC6201C6F822500CAB100 /* NGProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGProgress.h; sourceTree = "<group>"; };
+		8FDEC6211C6F822500CAB100 /* NGProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGProgress.m; sourceTree = "<group>"; };
+		948B8B0B51E4874BA3948D8A /* Pods-RubyGarageIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyGarageIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RubyGarageIOS/Pods-RubyGarageIOS.release.xcconfig"; sourceTree = "<group>"; };
+		B198A8E0354CABC89274EACB /* libPods-RubyGarageIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RubyGarageIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1ABBDF1C6DADEF00939B12 /* products_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = products_background.png; sourceTree = "<group>"; };
+		DB63E5BB1C705E15005A2FAE /* NGFavoriteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGFavoriteController.h; sourceTree = "<group>"; };
+		DB63E5BC1C705E15005A2FAE /* NGFavoriteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGFavoriteController.m; sourceTree = "<group>"; };
+		DB6556E51C6A7E5100C0C086 /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = Pods/AFNetworking/AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		DB6556E91C6A7FA400C0C086 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DB6556EA1C6A7FA400C0C086 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DB6556F01C6A83EB00C0C086 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		DB6556F11C6A83EB00C0C086 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		DB6556F31C6A878700C0C086 /* NGServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGServerManager.h; sourceTree = "<group>"; };
+		DB6556F41C6A878700C0C086 /* NGServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGServerManager.m; sourceTree = "<group>"; };
+		DB6556F71C6A8AA100C0C086 /* NGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCategory.h; sourceTree = "<group>"; };
+		DB6556F81C6A8AA100C0C086 /* NGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCategory.m; sourceTree = "<group>"; };
+		DB7978881C6B27BC006AD745 /* NGProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGProductCell.h; sourceTree = "<group>"; };
+		DB7978891C6B27BC006AD745 /* NGProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGProductCell.m; sourceTree = "<group>"; };
+		DB81E1671C726A16006DFFF2 /* ImageSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSaver.h; sourceTree = "<group>"; };
+		DB81E1681C726A16006DFFF2 /* ImageSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSaver.m; sourceTree = "<group>"; };
+		DB8689B61C6FD5AC00B951DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DB8689B81C6FD78200B951DE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DB8689C11C6FDB2C00B951DE /* ProductSelected+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProductSelected+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DB8689C21C6FDB2C00B951DE /* ProductSelected+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ProductSelected+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DB8689C31C6FDB2C00B951DE /* ProductSelected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductSelected.h; sourceTree = "<group>"; };
+		DB8689C41C6FDB2C00B951DE /* ProductSelected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductSelected.m; sourceTree = "<group>"; };
+		DB8689C71C6FEF2300B951DE /* libMagicalRecord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMagicalRecord.a; path = "Pods/../build/Debug-iphoneos/libMagicalRecord.a"; sourceTree = "<group>"; };
 		DB8F58881C691A9F00CDFB2D /* RubyGarageIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubyGarageIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8F588C1C691A9F00CDFB2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB8F588E1C691A9F00CDFB2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB8F588F1C691A9F00CDFB2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB8F58911C691A9F00CDFB2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DB8F58921C691A9F00CDFB2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB8F58951C691A9F00CDFB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB8F58981C691A9F00CDFB2D /* RubyGarageIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RubyGarageIOS.xcdatamodel; sourceTree = "<group>"; };
 		DB8F589A1C691A9F00CDFB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8F589D1C691A9F00CDFB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB8F589F1C691A9F00CDFB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE075F71C6B035B00781C8F /* NGProductsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGProductsCollection.h; sourceTree = "<group>"; };
+		DBE075F81C6B035B00781C8F /* NGProductsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGProductsCollection.m; sourceTree = "<group>"; };
+		DBE075FA1C6B07FA00781C8F /* NGProducts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGProducts.h; sourceTree = "<group>"; };
+		DBE075FB1C6B07FA00781C8F /* NGProducts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGProducts.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +91,161 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8689C81C6FEF2300B951DE /* libMagicalRecord.a in Frameworks */,
+				DB8689B71C6FD5AC00B951DE /* CoreData.framework in Frameworks */,
+				A8225C3587CAC5FB75049D7B /* libPods-RubyGarageIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E4CE9B0BA9F14D3C015AC94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB8689C71C6FEF2300B951DE /* libMagicalRecord.a */,
+				DB8689B61C6FD5AC00B951DE /* CoreData.framework */,
+				DB6556E51C6A7E5100C0C086 /* AFNetworking.h */,
+				B198A8E0354CABC89274EACB /* libPods-RubyGarageIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FDEC61F1C6F820400CAB100 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEC6201C6F822500CAB100 /* NGProgress.h */,
+				8FDEC6211C6F822500CAB100 /* NGProgress.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DB1ABBDB1C6DAD7100939B12 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DB1ABBDC1C6DADCA00939B12 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DB1ABBDC1C6DADCA00939B12 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEC61A1C6F585400CAB100 /* placeholder.png */,
+				DB1ABBDF1C6DADEF00939B12 /* products_background.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DB63E5B71C705D22005A2FAE /* FavoriteVC */ = {
+			isa = PBXGroup;
+			children = (
+				DB63E5BB1C705E15005A2FAE /* NGFavoriteController.h */,
+				DB63E5BC1C705E15005A2FAE /* NGFavoriteController.m */,
+			);
+			path = FavoriteVC;
+			sourceTree = "<group>";
+		};
+		DB6556DA1C6A776400C0C086 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEC61F1C6F820400CAB100 /* MBProgressHUD */,
+				DB6556F61C6A8A8700C0C086 /* Models */,
+				DB6556F31C6A878700C0C086 /* NGServerManager.h */,
+				DB6556F41C6A878700C0C086 /* NGServerManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DB6556DB1C6A777A00C0C086 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB63E5B71C705D22005A2FAE /* FavoriteVC */,
+				DBE075F31C6AFF6700781C8F /* ProductsVC */,
+				DB6556E71C6A7F1900C0C086 /* DetailVC */,
+				DB6556EC1C6A807C00C0C086 /* SearchVC */,
+				DB6556E81C6A7F1900C0C086 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB6556E71C6A7F1900C0C086 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEC6141C6F1D6A00CAB100 /* NGDetailController.h */,
+				8FDEC6151C6F1D6A00CAB100 /* NGDetailController.m */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
+		DB6556E81C6A7F1900C0C086 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DB6556E91C6A7FA400C0C086 /* MainViewController.h */,
+				DB6556EA1C6A7FA400C0C086 /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DB6556EC1C6A807C00C0C086 /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				DB6556F01C6A83EB00C0C086 /* SearchViewController.h */,
+				DB6556F11C6A83EB00C0C086 /* SearchViewController.m */,
+			);
+			path = SearchVC;
+			sourceTree = "<group>";
+		};
+		DB6556F61C6A8A8700C0C086 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB6556F71C6A8AA100C0C086 /* NGCategory.h */,
+				DB6556F81C6A8AA100C0C086 /* NGCategory.m */,
+				DBE075FA1C6B07FA00781C8F /* NGProducts.h */,
+				DBE075FB1C6B07FA00781C8F /* NGProducts.m */,
+				8FDEC6171C6F233900CAB100 /* NGDetailProduct.h */,
+				8FDEC6181C6F233900CAB100 /* NGDetailProduct.m */,
+				8FDEC61C1C6F60B500CAB100 /* NGPagination.h */,
+				8FDEC61D1C6F60B500CAB100 /* NGPagination.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB81E1651C7269D5006DFFF2 /* AdditionalClasses */ = {
+			isa = PBXGroup;
+			children = (
+				DB81E1661C7269F4006DFFF2 /* ImageSaver */,
+			);
+			path = AdditionalClasses;
+			sourceTree = "<group>";
+		};
+		DB81E1661C7269F4006DFFF2 /* ImageSaver */ = {
+			isa = PBXGroup;
+			children = (
+				DB81E1671C726A16006DFFF2 /* ImageSaver.h */,
+				DB81E1681C726A16006DFFF2 /* ImageSaver.m */,
+			);
+			path = ImageSaver;
+			sourceTree = "<group>";
+		};
+		DB8689C01C6FDB0900B951DE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DB8689C11C6FDB2C00B951DE /* ProductSelected+CoreDataProperties.h */,
+				DB8689C21C6FDB2C00B951DE /* ProductSelected+CoreDataProperties.m */,
+				DB8689C31C6FDB2C00B951DE /* ProductSelected.h */,
+				DB8689C41C6FDB2C00B951DE /* ProductSelected.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		DB8F587F1C691A9F00CDFB2D = {
 			isa = PBXGroup;
 			children = (
 				DB8F588A1C691A9F00CDFB2D /* RubyGarageIOS */,
 				DB8F58891C691A9F00CDFB2D /* Products */,
+				F4D6DA6FAE834838AA061EC1 /* Pods */,
+				2E4CE9B0BA9F14D3C015AC94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +260,13 @@
 		DB8F588A1C691A9F00CDFB2D /* RubyGarageIOS */ = {
 			isa = PBXGroup;
 			children = (
+				DB1ABBDB1C6DAD7100939B12 /* Resource */,
+				DB8689C01C6FDB0900B951DE /* CoreData */,
+				DB6556DA1C6A776400C0C086 /* Network */,
+				DB81E1651C7269D5006DFFF2 /* AdditionalClasses */,
+				DB6556DB1C6A777A00C0C086 /* Controllers */,
 				DB8F588E1C691A9F00CDFB2D /* AppDelegate.h */,
 				DB8F588F1C691A9F00CDFB2D /* AppDelegate.m */,
-				DB8F58911C691A9F00CDFB2D /* ViewController.h */,
-				DB8F58921C691A9F00CDFB2D /* ViewController.m */,
 				DB8F58941C691A9F00CDFB2D /* Main.storyboard */,
 				DB8F589A1C691A9F00CDFB2D /* Assets.xcassets */,
 				DB8F589C1C691A9F00CDFB2D /* LaunchScreen.storyboard */,
@@ -78,8 +281,29 @@
 			isa = PBXGroup;
 			children = (
 				DB8F588C1C691A9F00CDFB2D /* main.m */,
+				DB8689B81C6FD78200B951DE /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBE075F31C6AFF6700781C8F /* ProductsVC */ = {
+			isa = PBXGroup;
+			children = (
+				DBE075F71C6B035B00781C8F /* NGProductsCollection.h */,
+				DBE075F81C6B035B00781C8F /* NGProductsCollection.m */,
+				DB7978881C6B27BC006AD745 /* NGProductCell.h */,
+				DB7978891C6B27BC006AD745 /* NGProductCell.m */,
+			);
+			path = ProductsVC;
+			sourceTree = "<group>";
+		};
+		F4D6DA6FAE834838AA061EC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5199DAA07AE45CB43C18AE48 /* Pods-RubyGarageIOS.debug.xcconfig */,
+				948B8B0B51E4874BA3948D8A /* Pods-RubyGarageIOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +313,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB8F58A21C691A9F00CDFB2D /* Build configuration list for PBXNativeTarget "RubyGarageIOS" */;
 			buildPhases = (
+				2CEAD0D19C7EF88506491BDE /* Check Pods Manifest.lock */,
 				DB8F58841C691A9F00CDFB2D /* Sources */,
 				DB8F58851C691A9F00CDFB2D /* Frameworks */,
 				DB8F58861C691A9F00CDFB2D /* Resources */,
+				B3684FCD20565F9D1E848B74 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,22 +366,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8F589E1C691A9F00CDFB2D /* LaunchScreen.storyboard in Resources */,
+				DB1ABBE01C6DADEF00939B12 /* products_background.png in Resources */,
 				DB8F589B1C691A9F00CDFB2D /* Assets.xcassets in Resources */,
+				8FDEC61B1C6F585400CAB100 /* placeholder.png in Resources */,
 				DB8F58961C691A9F00CDFB2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CEAD0D19C7EF88506491BDE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3684FCD20565F9D1E848B74 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RubyGarageIOS/Pods-RubyGarageIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB8F58841C691A9F00CDFB2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8F58931C691A9F00CDFB2D /* ViewController.m in Sources */,
+				DB63E5BD1C705E15005A2FAE /* NGFavoriteController.m in Sources */,
+				DB8689C51C6FDB2C00B951DE /* ProductSelected+CoreDataProperties.m in Sources */,
 				DB8F58901C691A9F00CDFB2D /* AppDelegate.m in Sources */,
+				8FDEC61E1C6F60B500CAB100 /* NGPagination.m in Sources */,
+				DB6556F51C6A878700C0C086 /* NGServerManager.m in Sources */,
+				DB79788A1C6B27BC006AD745 /* NGProductCell.m in Sources */,
+				DBE075FC1C6B07FA00781C8F /* NGProducts.m in Sources */,
+				DB8689C61C6FDB2C00B951DE /* ProductSelected.m in Sources */,
 				DB8F58991C691A9F00CDFB2D /* RubyGarageIOS.xcdatamodeld in Sources */,
+				8FDEC6191C6F233900CAB100 /* NGDetailProduct.m in Sources */,
+				DB6556F21C6A83EB00C0C086 /* SearchViewController.m in Sources */,
 				DB8F588D1C691A9F00CDFB2D /* main.m in Sources */,
+				8FDEC6161C6F1D6A00CAB100 /* NGDetailController.m in Sources */,
+				DB6556F91C6A8AA100C0C086 /* NGCategory.m in Sources */,
+				8FDEC6221C6F822500CAB100 /* NGProgress.m in Sources */,
+				DB81E1691C726A16006DFFF2 /* ImageSaver.m in Sources */,
+				DBE075F91C6B035B00781C8F /* NGProductsCollection.m in Sources */,
+				DB6556EB1C6A7FA400C0C086 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +540,18 @@
 		};
 		DB8F58A31C691A9F00CDFB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5199DAA07AE45CB43C18AE48 /* Pods-RubyGarageIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RubyGarageIOS/PrefixHeader.pch;
 				INFOPLIST_FILE = RubyGarageIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gil.RubyGarageIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -276,10 +559,18 @@
 		};
 		DB8F58A41C691A9F00CDFB2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948B8B0B51E4874BA3948D8A /* Pods-RubyGarageIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RubyGarageIOS/PrefixHeader.pch;
 				INFOPLIST_FILE = RubyGarageIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gil.RubyGarageIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -304,6 +595,7 @@
 				DB8F58A41C691A9F00CDFB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

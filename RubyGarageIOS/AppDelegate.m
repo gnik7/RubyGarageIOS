@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "AFNetworking.h"
+#import <MagicalRecord/MagicalRecord.h>
+#import <MagicalRecord/MagicalRecord+ShorthandMethods.h>
+
+
 
 @interface AppDelegate ()
 
@@ -17,6 +22,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    //[MagicalRecord enableShorthandMethods];
+    
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"RubyGarageIOS"];
+    
+    
     return YES;
 }
 
